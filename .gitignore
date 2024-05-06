@@ -7,9 +7,11 @@
 *.dll
 *.so
 *.dylib
+task-manager-go
 
 # Test binary, built with `go test -c`
 *.test
+task.db
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
@@ -19,3 +21,7 @@
 
 # Go workspace file
 go.work
+
+# IDE config
+.fleet/
+.DS_Store
